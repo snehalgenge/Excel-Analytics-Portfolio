@@ -113,3 +113,37 @@ This assignment was executed across a structured **4-part framework containing s
 
 ### 💡 The "So What?" Takeaway
 This project demonstrates that raw data volume is useless unless you can slice it logically. Mastering the structural layout of `SUMIFS` and `COUNTIFS` enables an analyst to bypass slow manual filtering completely, establishing automated summary cards that dynamically extract clean business metrics from thousands of chaotic data entries.
+
+
+## 📱 01_Digital_Wellbeing
+
+**📁 Project Files:** `Digital_Wellbeing.xlsx` \| `Short_Report.docx` \| `Form_Proof.png`
+**🎯 Objective:** To analyze the statistical correlation between daily screen time hours, late-night screen exposure (post-9 PM), and their direct impact on personal sleep quality and daily productivity across different age demographics.
+**🔍 Methodology:** Deployed a cloud web-form response link across a localized sample network to crowdsource **32 unique user responses** directly. Raw entries were sanitized and structured into an interactive scorecard.
+
+| Business / Lifestyle Question | Visual Format Used | Core Analytical Takeaway |
+| :--- | :--- | :--- |
+| **Peak Usage Demographic?** | Clustered Bar Chart | The **19–30 age segment** dominates device footprint at **3,960 total minutes/day**. |
+| **Dominant Device Ecosystem?** | Data-Labeled Pie Chart | Heavy market saturation by **Mobiles (15 users)** and **Laptops (13 users)**. |
+| **Productive vs. Leisure Use?** | Horizontal Bar Chart | **Study/Work (4,476 mins)** heavily outpaces active Entertainment (2,613 mins). |
+| **Late-Night Habits Risk?** | Highlighted KPI Card | **20 respondents** use screens past 9:00 PM; **11 explicitly report degraded sleep**. |
+
+**💡 The "So What?" Takeaway:** Managing late-night app exposure profiles (post-9 PM) is vastly more critical to overall sleep quality optimization than simply cutting down total daily device usage volume.
+
+---
+
+## 🍔 02_Eating_Habits_Health_Awareness
+
+**📁 Project Files:** `Eating_Habits.xlsx` \| `Short_Report.docx` \| `Form_Proof.png`
+**🎯 Objective:** To evaluate the behavioral relationships between multi-generational age groups, weekly dining-out frequencies, and financial spending trends against an individual's active level of health consciousness.
+**🔍 Methodology:** Dispatched a cloud-based questionnaire form link to a localized network of **friends and family** to ingest raw consumer dining data and budget profiles directly.
+
+| Lifestyle / Business Question | Visual Format Used | Core Analytical Takeaway |
+| :--- | :--- | :--- |
+| **Average Dining Velocity?** | Highlighted KPI Card | Consumers average a baseline eating out frequency of **3 times/week**. |
+| **Top Sourced Diet Choice?** | Sorted Pivot Table | Heavy structural preference for **Homemade Food (17 users)** over Restaurants (8). |
+| **Average Budget Footprint?** | Standalone KPI Card | The average financial allocation totals **1,110 per person** on dining out. |
+| **Peak Demand Segment?** | Heatmapped Bar Chart | The **19–30 age bracket** dominates usage, logging **49 total visits/week**. |
+| **Health Awareness Index?** | Column Chart Matrix | An overwhelming majority of **27 respondents** actively prioritize health metrics. |
+
+**💡 The "So What?" Takeaway:** Exposes a distinct behavioral paradox where young adults (19-30) drive heavy commercial dining frequencies (49 times/week) despite claiming high health awareness, signaling an immediate market gap for healthy, fast, and budget-friendly outer dining alternatives.
