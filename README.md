@@ -1,6 +1,6 @@
 ## 📊 Excel Analytics Portfolio: Spreadsheet Architecture & Dashboard Engineering
 
-Welcome to my Excel Portfolio repository! This project showcases a curated collection of **structured Excel assignments** demonstrating advanced skills in end-to-end spreadsheet automation. Every project inside this repository transforms raw, unorganized data into fully automated, interactive reporting tools built completely inside Microsoft Excel.
+Welcome to my Excel Portfolio repository! This project showcases a curated collection of **structured 10 Excel assignments** demonstrating advanced skills in end-to-end spreadsheet automation. Every project inside this repository transforms raw, unorganized data into fully automated, interactive reporting tools built completely inside Microsoft Excel.
 
 ---
 
@@ -27,8 +27,6 @@ To analyze the statistical correlation between daily electronic device usage hou
 ### 🌐 Primary Data Capture Validation
 The raw database was independently crowdsourced, successfully capturing a baseline volume of **32 unique user responses**:
 
-![Google Forms Response Capture Tracker](Assignment_1_Response_sheet.png)
-
 ### 🔍 Project Overview
 Conducted primary research by distributing a cloud-based web-form response link to map mobile and laptop usage habits. Raw user responses were aggregated into Excel summary tables to isolate the direct correlation between evening device habits and self-reported sleep quality.
 
@@ -51,6 +49,7 @@ The analysis proves that overall exposure volume isn't the primary driver of lif
 
 ---
 
+
 ## 🍔 02_Eating_Habits_Health_Awareness
 
 ### 📁 Project File Layout
@@ -63,8 +62,6 @@ To evaluate the behavioral relationships between multi-generational age groups, 
 
 ### 🌐 Primary Data Capture Validation
 The raw database was independently crowdsourced, successfully capturing a baseline volume of **32 unique user responses**:
-
-![Google Forms Response Capture Tracker](Assignment_2_Response_sheet.png)
 
 ### 🔍 Project Overview
 Developed and executed an end-to-end primary data capture pipeline by designing a custom cloud questionnaire form and distributing a live link across a localized network of friends and family.
@@ -88,6 +85,7 @@ Developed and executed an end-to-end primary data capture pipeline by designing 
 The analysis exposes a distinct behavioral paradox: while the vast majority (27 users) claim high health awareness and prefer homemade food, the core young adult demographic (19-30) still drives a heavy commercial dining frequency (49 times/week). This highlights an immediate commercial market gap for healthy, fast, and budget-friendly outer dining alternatives explicitly targeted at busy young professionals.
 
 ---
+
 
 ## 🔢 Assignment_3:Conditional_Aggregation_Matrix
 
@@ -120,7 +118,9 @@ This project demonstrates that raw data volume is useless unless you can slice i
 
 ## 🔀 Assignment_4:Logical_Audit_&_Fulfillment_Matrix
 **📁 Project Files:** `Assignment_4.xlsx` \`
+
 **🎯 Objective:** To engineer an automated delivery verification layer using multi-condition logical engines (`IF`, `AND`, `OR`, `IFS`) to audit dual-product row slots, date compliance boundaries, and dynamic commission rates.
+
 **🔍 Methodology:** Restructured raw courier transaction logs featuring two distinct product drops per row (single-slot tracking), deploying automated Boolean (`TRUE/FALSE`) and string outputs to detect shipment patterns.
 
 | Module / Exercise | Core Analytical Business Logic | Excel Functions Applied |
@@ -161,118 +161,74 @@ This layout demonstrates that advanced logic functions can safeguard an organiza
 
 **💡 The "So What?" Takeaway:** 
 This enterprise matrix proves that spreadsheet automation is critical for rapid corporate risk reduction. By converting multi-variable transactional columns into unified dashboard screens, stakeholders can instantly isolate revenue drops, department budget overruns, warehouse supply deficits, and fulfillment bottlenecks without scrolling through thousands of raw rows.
-# Business Operations & Analytics Dashboard
+# 🔢 Assignment_5: Enterprise_Data_Modeling_&_Visual_Dashboards
 
-An interactive, multi-dimensional spreadsheet ecosystem built to track business finances, inventory dynamics, project budgets, and delivery logistics. The project uses structured pivot calculations feeding dynamic reporting canvases.
+### 📁 Project File Layout
+*   `Assignment_5.xlsx`
+*      
+### 🎯 Project Objective
+To architect dynamic, interactive reporting layers fed by background pivot compilation engines. This project establishes multi-criteria logical filters (`SUMIFS`, `COUNTIFS`, `AVERAGEIFS`) and advanced spreadsheet modeling techniques to deliver executive-level operational KPIs and trend insights without modifying raw system tables.
+
+### 🔍 Project Architecture (Multi-Dimensional Modeling Framework)
+This assignment was executed across a synchronized **5-part analytics infrastructure**:
+
+| Module | Core Analytics Focus | Advanced BI Functions & Data Logic Applied |
+| :---: | :--- | :--- |
+| **5.1** | **Financial & Profitability Vectors** | Engineered multi-criteria summing expressions to isolate Revenue and Net Profit across regional domains and temporal tracking intervals. |
+| **5.2** | **Workforce Dynamics & Overhead** | Applied conditional string matching and statistical averaging to model structural human capital attrition alongside corporate compensation baselines. |
+| **5.3** | **Inventory Control & Volatility** | Built algorithmic net-movement logic `(Inflow - Outflow)` integrated with chronological date-grouping arrays and safety-deficit alerting rules. |
+| **5.4** | **Fiscal Governance & Variance** | Structured dual-variable budget utilization models evaluating planned allocations against realized expenses across project hierarchies. |
+| **5.5** | **Supply Chain Latency & Friction** | Orchestrated chronological operational throughput counting and time-delta averaging to flag distribution bottlenecks and customer friction zones. |
+
+### 💡 Take Away
+*   **True Success Metrics over Volume:** Mastered using contextual rates (e.g., `Win Rate %` or `% Budget Used`) over basic raw counts to find the true top-performing teams and departments.
+*   **Visual Formatting Control:** Learned how to remove distracting auto-decimals on Callout KPI cards by overriding settings from "All" to specific fields in the Power BI properties panel.
+*   **Dynamic Dashboard Interaction:** Gained expertise in setting up interactive multi-filters (Slicers and Timeline Sliders) that allow viewers to cross-filter charts dynamically with zero manual coding.
+Use code with caution.
+
+# 🔢 Assignment_6: Data_Retrieval_&_Dynamic_Filtering_Matrix
+
+### 📁 Project File Layout
+*   `Assignment_6.xlsx`
+*   
+### 🎯 Project Objective
+To master precision data retrieval and dynamic record isolation across complex datasets by engineering structural search engines using `VLOOKUP` and `FILTER`. This project establishes stable vertical lookup paths and modern logical array matrices to pull targeted operational records instantly without changing the underlying raw tables.
+
+### 🔍 Project Architecture (Retrieval & Filtering Framework)
+
+| Module | Core Analytics Focus | Advanced Spreadsheet Functions & Data Logic Applied |
+| :---: | :--- | :--- |
+| **Exact Match Key Extractions** | Applied vertical reference searches (`VLOOKUP`) with exact match parameters (`FALSE`) to isolate single records based on unique identifiers. |
+| **Dynamic Array Transformations** | Deployed modern condition array scanning (`FILTER`) to extract complete subsets of matching rows based on categorical criteria. |
+
+---
+### 🔄 Data Orchestration & Automation Protocol
+1. **Data Appending:** Append raw data records to the bottom of the source sheets. The lookup frameworks adjust to the expansion without requiring formula rewrites.
+2. **Formula Execution:** `VLOOKUP` maps individual field targets vertically down structural arrays, while the `FILTER` engine automatically spills rows downward into layout cells if multiple matches exist.
+3. **Empty Result Handling:** Integrated error-trapping bounds (`"No Records Found"`) inside the dynamic array formulas to maintain clean dashboard interfaces when search criteria yield zero hits.
+
 
 ---
 
-## 📂 Project Architecture
+# 🔢 Assignment7_10_Advanced_Statistical_Operations_&_Exploratory_Data_Analysis
 
-```text
-├── 5.1 Financial & Sales Analytics Dashboard
-├── 5.2 Workforce & Attrition Overview
-├── 5.3 Inventory Management & Stock Controls
-├── 5.4 Financial Governance & Budget Tracking
-└── 5.5 Supply Chain & Order Logistics
-```
+### 🎯 Objective
+To perform a complete exploratory data analysis (EDA) and profile statistical distributions across business data records. The core goal is to extract precise shape profiles, linear variables relationships, percentiles boundaries, and extreme outliers using advanced data-modeling logic without modifying the original data rows.
 
----
+### 🔍 Project Architecture
+This analytical project follows a structured 5-part framework mapping the underlying variables:
 
-## 📊 Dashboard Breakdowns
+*   **Central Tendency & Dispersion Engine:** Models data centers (`Mean`, `Median`, `Mode`) for customer demographics and measures baseline variance (`Standard Deviation`, `Variance`) across financial metrics.
+*   **Distribution Geometry Validation:** Evaluates data curves asymmetry (`Skewness`) and tail weight (`Kurtosis`) to statistically verify if columns fit a normal bell curve.
+*   **Inter-Variable Association Matrix:** Pairs overlapping columns using direction mapping (`Covariance`) and strength measurements (`Pearson Correlation Coefficient`) to construct full data-relationship matrix grids.
+*   **Boundary Range Segmentation:** Extracts spatial cutoffs by tracking absolute ranges (`Max - Min`) and calculating the middle 50% spread using Interquartile Ranges (`IQR` at the 25%, 50%, and 75% marks).
+*   **Anomaly Isolation Protocol:** Converts raw individual rows into standardized units (`Z-Scores`) to instantly flag extreme scores resting past the critical `±3` standard deviation threshold.
 
-### 📈 5.1 Financial & Sales Analytics Dashboard
-*Focuses on core profitability vectors, revenue distribution patterns, and macroeconomic growth trends.*
+### 🛠️ Tool
+The analysis and dashboards were executed using a multi-platform environment:
+*   **Microsoft Excel:** Applied advanced column arrays, absolute locking constraints (`$`), conditional formatting rules, and the **Data Analysis Toolpak** (Descriptive Statistics & Correlation Matrix engines).
 
-#### 🛠️ Pivot Table Frameworks
-*   **Revenue & Net Profit Vectors:** Grouped multi-dimensionally by `Region` to track true performance distribution.
-
-#### 🎨 Presentation Layer Elements
-*   **Monthly Revenue Trendline:** A sequential line chart profiling growth trajectories, seasonal cyclicality, and momentum shift windows.
-*   **Volumetric Revenue Profile:** A horizontal/vertical bar chart isolating macro revenue generators across dimensions.
-
-#### 🎛️ Interactive Filters (Slicers)
-*   `Region` | `Product ID / Category`
-
----
-
-### 👥 5.2 Workforce & Attrition Overview
-*Monitors structural human capital changes, organizational demographics, and overhead financial profiles.*
-
-#### 🛠️ Pivot Table Frameworks
-*   **Attrition Engine:** Tracks historical and active workforce reductions against macro timelines.
-
-#### 🎨 Presentation Layer Elements
-*   **Gender Balance Matrix:** A clean pie chart showcasing diversity structures across the workforce spectrum.
-*   **Structural Attrition Profile:** A column chart isolating organizational churn vectors by department or tenure.
-*   **Operational Core KPIs:** High-visibility performance scorecards mapping:
-    *   `Headcount` (Active Total)
-    *   `Average Salary` (Compensation Benchmarks)
-
----
-
-### 📦 5.3 Inventory Management & Stock Controls
-*Provides granular tracking of raw stock inflows, outflows, and warehouse storage status thresholds.*
-
-#### 🛠️ Pivot Table Frameworks
-*   **Total Stock Movement Dynamics:** Calculates structural displacement values using `= (Purchased - Sold)` per distinct `Product`.
-*   **Categorical Asset Position:** Aggregates current `Closing Stock` values mapped directly by product group categories.
-*   **Weekly Vector Trends:** Time-series tracking groupings configured cleanly by 7-day increments.
-*   **Stock Level Alert Parameters:** Embedded conditional logic isolating severe deficits.
-
-#### 🎨 Presentation Layer Elements
-*   **Asset Comparison Matrix:** A stacked bar chart contrasting macro `Opening Stock` vs `Closing Stock` positions across categories.
-*   **Weekly Volatility Tracking:** A dynamic line chart highlighting velocity shifts in product movement.
-*   **Deficit Matrix:** A dense grid table mapping products flagging below minimal stocking safety ceilings.
-
-#### 🎛️ Interactive Filters (Slicers) & Logic
-*   `Warehouse Location`
-*   **Conditional Formatting Rule:** High-contrast color-coding applied directly onto the highlight table for any item hitting low-stock zones.
-
----
-
-### 💼 5.4 Financial Governance & Budget Tracking
-*Compares fiscal plans against real-world spending across departments, categories, and active project lifecycles.*
-
-#### 🛠️ Pivot Table Frameworks
-*   **Fiscal Variances by Unit:** Cross-analyzes assigned allocations (`Budget`) directly against outlays (`Expense`) grouped by department.
-*   **Utilization Efficiency:** Calculates relative burn metrics evaluating `[% Budget Used]` per category.
-*   **Temporal Spend Trendline:** Monthly tracking mechanisms aggregating ongoing cost run-rates.
-*   **Project Ledger Breakdown:** Granular cost allocation mapping outlays by specific project codes.
-
-#### 🎨 Presentation Layer Elements
-*   **Variance Tracking:** A dual-axis or side-by-side bar chart evaluating `Actual` expenditures directly against structural `Budget` ceilings.
-*   **Utilization Density Heatmap:** An intensity-mapped grid layout emphasizing high-risk burn categories (`% Budget Utilization`).
-*   **High-Impact Scorecard Indicators:** Grouped executive KPI cards evaluating:
-    *   `Total Budget Allocation`
-    *   `Total Expenses Realized`
-    *   `Overrun Variance (%)`
-
-#### 🎛️ Interactive Filters (Slicers)
-*   `Timeline Filter` (Dynamic date-range slider)
-
----
-
-### 🚚 5.5 Supply Chain & Order Logistics
-*Monitors fulfillment efficiency, client transaction volume distributions, and distribution delay metrics.*
-
-#### 🛠️ Pivot Table Frameworks
-*   **Transactional Client Metrics:** Calculates overall transactional activity categorized by specific `Customer` accounts and historical `Order Status`.
-*   **Logistical Latency Benchmarks:** Tracks `[Average Delivery Duration]` metrics grouped across individual products.
-*   **Fulfillment Volumes:** Computes total periodic counts alongside aggregated values (`Order Count` and `Order Value`).
-*   **Friction Metrics:** Identifies operational pain points by listing total `Delay Count` events per specific client.
-
-#### 🎨 Presentation Layer Elements
-*   **Fulfillment Velocity Trendline:** A dual-axis line chart overlaying total `Monthly Orders` running against overall `Revenue` figures.
-*   **Customer Friction Profile:** A column or bar chart highlighting the absolute highest-risk delayed client files.
-*   **Fulfillment Efficiency Matrix:** A structured table displaying specific `Average Delivery Times` mapped per product.
-
-#### 🎛️ Interactive Filters (Slicers)
-*   `Delivery Status` | `Product Group`
-
----
-
-## 🛠️ Usage Instructions & Data Refresh Guide
-1. **Data Appending:** Add any raw operational data records directly into the foundational transactional source tables.
-2. **Refresh Sequence:** Go to the application ribbon ➔ **Data** ➔ Click **Refresh All** to update the pivot matrices and charts simultaneously.
-3. **Cross-Filtering Interactive Protocol:** Click any combination of slicer nodes to focus your dashboard views on specific operations.
+### 💡 Take Away
+*   **Standardized Normal Limits:** Verified that a skewness value near 0 (e.g., `0.0378`) proves a dataset is nearly perfectly symmetrical and normally distributed.
+*   **Outlier Shielding Logic:** Mastered row-by-row Z-score filtering using `=ABS(Z_Score) > 3` to isolate dirty data anomalies cleanly.
+*   **Precision Over Scale:** Learned that checking the standardized correlation number (`-1 to +1`) is far more reliable for business decisions than basic covariance numbers because it isn't warped by large data values.
