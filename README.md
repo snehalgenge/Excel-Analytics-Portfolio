@@ -1,4 +1,5 @@
-### Excel Analytics Portfolio: Spreadsheet Architecture & Dashboard Engineering
+### Excel Analytics Portfolio: 
+##### Spreadsheet Architecture & Dashboard Engineering
 
 Welcome to my Excel Portfolio repository! This project showcases a curated collection of **structured 10 Excel assignments** demonstrating advanced skills in end-to-end spreadsheet automation. Every project inside this repository transforms raw, unorganized data into fully automated, interactive reporting tools built completely inside Microsoft Excel.
 
@@ -23,7 +24,7 @@ Assignment_1_Digital_Wellbeing.xlsx` — Automated analytical workbook with char
 Assignment_1_Short_report.docx` — Complete executive business text summary and analytical report.
 Assignment_1_Response_sheet.png` — Screenshot verification of the primary cloud ingestion form.
 
-###### Primary Data Capture Validation
+##### Primary Data Capture Validation
 The raw database was independently crowdsourced, successfully capturing a baseline volume of **32 unique user responses**:
 
 ##### Project Overview
@@ -190,8 +191,8 @@ To master precision data retrieval and dynamic record isolation across complex d
 
 ##### Project Architecture (Retrieval & Filtering Framework)
 
-| Module | Core Analytics Focus | Advanced Spreadsheet Functions & Data Logic Applied |
-| :---: | :--- | :--- |
+| Core Analytics Focus | Advanced Spreadsheet Functions & Data Logic Applied |
+| :---: | :--- |
 | **Exact Match Key Extractions** | Applied vertical reference searches (`VLOOKUP`) with exact match parameters (`FALSE`) to isolate single records based on unique identifiers. |
 | **Dynamic Array Transformations** | Deployed modern condition array scanning (`FILTER`) to extract complete subsets of matching rows based on categorical criteria. |
 
