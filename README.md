@@ -4,11 +4,15 @@ Welcome to my Excel Portfolio repository! This project showcases a curated colle
 
 #### Advanced Excel Core Competencies
 
-*   **1.Data Ingestion & ETL (Power Query):** Importing messy, raw text files and survey outputs; automating multi-step cleaning pipelines using **Power Query** to merge tables, strip null values, and parse string variables.
-*   **2.Formula Engineering & Lookup Functions:** Constructing bulletproof calculation layers utilizing modern engines like `XLOOKUP`, `INDEX/MATCH`, nested logical `IFS`, and advanced summary functions (`SUMIFS`, `COUNTIFS`).
-*   **3.Data Aggregation (Pivot Tables):** Structuring complex multidimensional summaries, custom field groupings, and calculated fields to deconstruct large operational datasets into scannable summaries.
-*   **4.Interactive Dashboard Architecture:** Engineering responsive user interfaces utilizing automated **KPI visual blocks**, fully connected **Slicers**, and interactive **Timelines** for seamless cross-filtering.
-*   **5.Data Visualization & Conditional UI:** Applying advanced presentation techniques, including dynamic **Pivot Charts**, localized **Conditional Formatting**, and custom **Heatmaps** to highlight operational risk thresholds immediately.
+**1.Data Ingestion & ETL (Power Query):** Importing messy, raw text files and survey outputs; automating multi-step cleaning pipelines using **Power Query** to merge tables, strip null values, and parse string variables.
+
+**2.Formula Engineering & Lookup Functions:** Constructing bulletproof calculation layers utilizing modern engines like `XLOOKUP`, `INDEX/MATCH`, nested logical `IFS`, and advanced summary functions (`SUMIFS`, `COUNTIFS`).
+
+**3.Data Aggregation (Pivot Tables):** Structuring complex multidimensional summaries, custom field groupings, and calculated fields to deconstruct large operational datasets into scannable summaries.
+
+**4.Interactive Dashboard Architecture:** Engineering responsive user interfaces utilizing automated **KPI visual blocks**, fully connected **Slicers**, and interactive **Timelines** for seamless cross-filtering.
+
+**5.Data Visualization & Conditional UI:** Applying advanced presentation techniques, including dynamic **Pivot Charts**, localized **Conditional Formatting**, and custom **Heatmaps** to highlight operational risk thresholds immediately.
 
 ---
 
@@ -80,7 +84,9 @@ To evaluate the behavioral relationships between multi-generational age groups, 
 
 ##### Key Excel Tools Used
 * ETL & Clean Ingestion:Sanitized incoming cloud response logs using string filters to create matching data arrays.
+
 * Data Aggregation:Deconstructed raw entries using **Pivot Tables** to calculate frequencies and group fields by age brackets.
+
 * Visual Engineering:Configured clean Horizontal Bar Charts, Pie Charts, targeted **KPI Cards**, and a **Conditional Heatmap**.
 
 ---
@@ -112,9 +118,12 @@ This assignment was executed across a structured **4-part framework containing s
 
 ##### Key Excel Tools Used
 * Formula Engineering: Mastered the structural layout shifts between single-condition (`SUMIF`) and advanced multi-criteria (`SUMIFS`) syntax properties.
+
 * Logical Auditing: Parsed structural text string constants inside conditional parameters to guarantee precise category matches.
+
 * Cell Anchoring: Utilized absolute referencing controls (`$`) to design scalable summary boxes that expand across rows smoothly.
 
+---
 
 #### Assignment_4:Logical_Audit_&_Fulfillment_Matrix
 
@@ -163,7 +172,9 @@ This assignment was executed across a synchronized **5-part analytics infrastruc
 
 ##### Discription
 1.  **True Success Metrics over Volume:** Mastered using contextual rates (e.g., `Win Rate %` or `% Budget Used`) over basic raw counts to find the true top-performing teams and departments.
+
 2.  **Visual Formatting Control:** Learned how to remove distracting auto-decimals on Callout KPI cards by overriding settings from "All" to specific fields in the Power BI properties panel.
+
 3. **Dynamic Dashboard Interaction:** Gained expertise in setting up interactive multi-filters (Slicers and Timeline Sliders) that allow viewers to cross-filter charts dynamically with zero manual coding.
 Use code with caution.
 
@@ -186,12 +197,14 @@ To master precision data retrieval and dynamic record isolation across complex d
 
 ##### Discription
 1.Data Appending: Append raw data records to the bottom of the source sheets. The lookup frameworks adjust to the expansion without requiring formula rewrites.
+
 2.Formula Execution:`VLOOKUP` maps individual field targets vertically down structural arrays, while the `FILTER` engine automatically spills rows downward into layout cells if multiple matches exist.
+
 3.Empty Result Handling:Integrated error-trapping bounds (`"No Records Found"`) inside the dynamic array formulas to maintain clean dashboard interfaces when search criteria yield zero hits.
 
 ---
 
-#### Assignment7_10_Advanced_Statistical_Operations_&_Exploratory_Data_Analysis
+#### Assignment _7 to 10_Advanced_Statistical_Operations_&_Exploratory_Data_Analysis
 ##### Project File Layout
 Assignment_7 to 10.xlsx
 
@@ -202,14 +215,20 @@ To perform a complete exploratory data analysis (EDA) and profile statistical di
 This analytical project follows a structured 5-part framework mapping the underlying variables:
 
 1.Central Tendency & Dispersion Engine:Models data centers (`Mean`, `Median`, `Mode`) for customer demographics and measures baseline variance (`Standard Deviation`, `Variance`) across financial metrics.
+
 2.Distribution Geometry Validation:Evaluates data curves asymmetry (`Skewness`) and tail weight (`Kurtosis`) to statistically verify if columns fit a normal bell curve.
+
 3.Inter-Variable Association Matrix:Pairs overlapping columns using direction mapping (`Covariance`) and strength measurements (`Pearson Correlation Coefficient`) to construct full data-relationship matrix grids.
+
 4.Boundary Range Segmentation:Extracts spatial cutoffs by tracking absolute ranges (`Max - Min`) and calculating the middle 50% spread using Interquartile Ranges (`IQR` at the 25%, 50%, and 75% marks).
+
 5.Anomaly Isolation Protocol:Converts raw individual rows into standardized units (`Z-Scores`) to instantly flag extreme scores resting past the critical `±3` standard deviation threshold.
 
 ##### Discription
 1.Standardized Normal Limits:Verified that a skewness value near 0 (e.g., `0.0378`) proves a dataset is nearly perfectly symmetrical and normally distributed.
+
 2.Outlier Shielding Logic:Mastered row-by-row Z-score filtering using `=ABS(Z_Score) > 3` to isolate dirty data anomalies cleanly.
+
 3.Precision Over Scale:Learned that checking the standardized correlation number (`-1 to +1`) is far more reliable for business decisions than basic covariance numbers because it isn't warped by large data values.
 
 ##### Tool
