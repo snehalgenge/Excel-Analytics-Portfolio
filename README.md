@@ -1,41 +1,34 @@
-## 📊 Excel Analytics Portfolio: Spreadsheet Architecture & Dashboard Engineering
+### Excel Analytics Portfolio: Spreadsheet Architecture & Dashboard Engineering
 
 Welcome to my Excel Portfolio repository! This project showcases a curated collection of **structured 10 Excel assignments** demonstrating advanced skills in end-to-end spreadsheet automation. Every project inside this repository transforms raw, unorganized data into fully automated, interactive reporting tools built completely inside Microsoft Excel.
 
----
+#### Advanced Excel Core Competencies
 
-### 🛠️ Advanced Excel Core Competencies
-
-*   **Data Ingestion & ETL (Power Query):** Importing messy, raw text files and survey outputs; automating multi-step cleaning pipelines using **Power Query** to merge tables, strip null values, and parse string variables.
-*   **Formula Engineering & Lookup Functions:** Constructing bulletproof calculation layers utilizing modern engines like `XLOOKUP`, `INDEX/MATCH`, nested logical `IFS`, and advanced summary functions (`SUMIFS`, `COUNTIFS`).
-*   **Data Aggregation (Pivot Tables):** Structuring complex multidimensional summaries, custom field groupings, and calculated fields to deconstruct large operational datasets into scannable summaries.
-*   **Interactive Dashboard Architecture:** Engineering responsive user interfaces utilizing automated **KPI visual blocks**, fully connected **Slicers**, and interactive **Timelines** for seamless cross-filtering.
-*   **Data Visualization & Conditional UI:** Applying advanced presentation techniques, including dynamic **Pivot Charts**, localized **Conditional Formatting**, and custom **Heatmaps** to highlight operational risk thresholds immediately.
+*   **1.Data Ingestion & ETL (Power Query):** Importing messy, raw text files and survey outputs; automating multi-step cleaning pipelines using **Power Query** to merge tables, strip null values, and parse string variables.
+*   **2.Formula Engineering & Lookup Functions:** Constructing bulletproof calculation layers utilizing modern engines like `XLOOKUP`, `INDEX/MATCH`, nested logical `IFS`, and advanced summary functions (`SUMIFS`, `COUNTIFS`).
+*   **3.Data Aggregation (Pivot Tables):** Structuring complex multidimensional summaries, custom field groupings, and calculated fields to deconstruct large operational datasets into scannable summaries.
+*   **4.Interactive Dashboard Architecture:** Engineering responsive user interfaces utilizing automated **KPI visual blocks**, fully connected **Slicers**, and interactive **Timelines** for seamless cross-filtering.
+*   **5.Data Visualization & Conditional UI:** Applying advanced presentation techniques, including dynamic **Pivot Charts**, localized **Conditional Formatting**, and custom **Heatmaps** to highlight operational risk thresholds immediately.
 
 ---
 
-## 📱 01_Digital_Wellbeing
+#### Assignment_1_Digital_Wellbeing
 
-### 📁 Project File Layout
-*   `Assignment_1_Digital_Wellbeing.xlsx` — Automated analytical workbook with charts and KPIs.
-*   `Assignment_1_Short_report.docx` — Complete executive business text summary and analytical report.
-*   `Assignment_1_Response_sheet.png` — Screenshot verification of the primary cloud ingestion form.
+##### Project File Layout
+Assignment_1_Digital_Wellbeing.xlsx` — Automated analytical workbook with charts and KPIs.
+Assignment_1_Short_report.docx` — Complete executive business text summary and analytical report.
+Assignment_1_Response_sheet.png` — Screenshot verification of the primary cloud ingestion form.
 
-### 🎯 Project Objective
-To analyze the statistical correlation between daily electronic device usage hours, late-night screen exposure, and their direct impact on personal sleep quality and daily productivity across different age demographics.
-
-### 🌐 Primary Data Capture Validation
+###### Primary Data Capture Validation
 The raw database was independently crowdsourced, successfully capturing a baseline volume of **32 unique user responses**:
 
-### 🔍 Project Overview
+##### Project Overview
 Conducted primary research by distributing a cloud-based web-form response link to map mobile and laptop usage habits. Raw user responses were aggregated into Excel summary tables to isolate the direct correlation between evening device habits and self-reported sleep quality.
 
-### 🛠️ Key Excel Tools Used
-*   **ETL & Cleaning:** Text sanitization and categorical filtering of incoming web responses.
-*   **Data Aggregation:** Conditional summary functions (`SUMIFS`, `AVERAGEIFS`) partitioned by age demographics.
-*   **Visual UX Design:** Clutter-free Bar and Pie Charts, automated KPI cards, and **Conditional Formatting** risk alerts.
+##### Objective
+To analyze the statistical correlation between daily electronic device usage hours, late-night screen exposure, and their direct impact on personal sleep quality and daily productivity across different age demographics.
 
-### 📊 Performance Insights Matrix
+##### Performance Insights Matrix
 
 | Business / Lifestyle Question | Visual Format Used | Core Analytical Takeaway |
 | :--- | :--- | :--- |
@@ -44,34 +37,34 @@ Conducted primary research by distributing a cloud-based web-form response link 
 | **Productive vs. Leisure Use?** | Horizontal Bar Chart | **Study/Work (4,476 mins)** heavily outpaces active Entertainment (2,613 mins). |
 | **Late-Night Habits Risk?** | Highlighted KPI Card | **20 respondents** use screens past 9:00 PM; **11 explicitly report degraded sleep**. |
 
-### 💡 The "So What?" Takeaway
-The analysis proves that overall exposure volume isn't the primary driver of lifestyle disruption; the bottleneck is situational. Because structural use is tied to mandatory work/study tasks, the key optimization path is establishing strict boundaries for **late-night device usage (post-9 PM)** to actively preserve sleep patterns.
+1.The analysis proves that overall exposure volume isn't the primary driver of lifestyle disruption; the bottleneck is situational.
 
+2.Because structural use is tied to mandatory work/study tasks, the key optimization path is establishing strict boundaries for **late-night device usage (post-9 PM)** to actively preserve sleep patterns.
+
+##### Key Excel Tools Used
+* ETL & Cleaning:Text sanitization and categorical filtering of incoming web responses.
+* Data Aggregation: Conditional summary functions (`SUMIFS`, `AVERAGEIFS`) partitioned by age demographics.
+* Visual UX Design: Clutter-free Bar and Pie Charts, automated KPI cards, and **Conditional Formatting** risk alerts.
+  
 ---
 
+#### Assignment_2_Eating_Habits_Health_Awareness
 
-## 🍔 02_Eating_Habits_Health_Awareness
+##### Project File Layout
+Assignment_2_Eating_Habits_Health_Awareness.xlsx` — Automated analytical workbook with charts and KPIs.
+Assignment_2_Short_report.docx` — Complete executive business text summary and analytical report.
+Assignment_2_Response_sheet.png` — Screenshot verification of the primary cloud ingestion form.
 
-### 📁 Project File Layout
-*   `Assignment_2_Eating_Habits_Health_Awareness.xlsx` — Automated analytical workbook with charts and KPIs.
-*   `Assignment_2_Short_report.docx` — Complete executive business text summary and analytical report.
-*   `Assignment_2_Response_sheet.png` — Screenshot verification of the primary cloud ingestion form.
+##### Primary Data Capture Validation
+The raw database was independently crowdsourced, successfully capturing a baseline volume of **30 unique user responses**:
 
-### 🎯 Project Objective
-To evaluate the behavioral relationships between multi-generational age groups, weekly dining-out frequencies, and financial spending trends against an individual's active level of health consciousness.
-
-### 🌐 Primary Data Capture Validation
-The raw database was independently crowdsourced, successfully capturing a baseline volume of **32 unique user responses**:
-
-### 🔍 Project Overview
+##### Project Overview
 Developed and executed an end-to-end primary data capture pipeline by designing a custom cloud questionnaire form and distributing a live link across a localized network of friends and family.
 
-### 🛠️ Key Excel Tools Used
-*   **ETL & Clean Ingestion:** Sanitized incoming cloud response logs using string filters to create matching data arrays.
-*   **Data Aggregation:** Deconstructed raw entries using **Pivot Tables** to calculate frequencies and group fields by age brackets.
-*   **Visual Engineering:** Configured clean Horizontal Bar Charts, Pie Charts, targeted **KPI Cards**, and a **Conditional Heatmap**.
+##### Project Objective
+To evaluate the behavioral relationships between multi-generational age groups, weekly dining-out frequencies, and financial spending trends against an individual's active level of health consciousness.
 
-### 📊 Performance Insights Matrix
+###### Performance Insights Matrix
 
 | Lifestyle / Business Question | Visual Format Used | Core Analytical Takeaway |
 | :--- | :--- | :--- |
@@ -81,24 +74,29 @@ Developed and executed an end-to-end primary data capture pipeline by designing 
 | **Peak Demand Segment?** | Heatmapped Bar Chart | The **19–30 age bracket** dominates usage, logging **49 total visits/week**. |
 | **Health Awareness Index?** | Column Chart Matrix | An overwhelming majority of **27 respondents** actively prioritize health metrics. |
 
-### 💡 The "So What?" Takeaway
-The analysis exposes a distinct behavioral paradox: while the vast majority (27 users) claim high health awareness and prefer homemade food, the core young adult demographic (19-30) still drives a heavy commercial dining frequency (49 times/week). This highlights an immediate commercial market gap for healthy, fast, and budget-friendly outer dining alternatives explicitly targeted at busy young professionals.
+1. The analysis exposes a distinct behavioral paradox: while the vast majority (27 users) claim high health awareness and prefer homemade food, the core young adult demographic (19-30) still drives a heavy commercial dining frequency (49 times/week).
+
+2. This highlights an immediate commercial market gap for healthy, fast, and budget-friendly outer dining alternatives explicitly targeted at busy young professionals.
+
+##### Key Excel Tools Used
+* ETL & Clean Ingestion:Sanitized incoming cloud response logs using string filters to create matching data arrays.
+* Data Aggregation:Deconstructed raw entries using **Pivot Tables** to calculate frequencies and group fields by age brackets.
+* Visual Engineering:Configured clean Horizontal Bar Charts, Pie Charts, targeted **KPI Cards**, and a **Conditional Heatmap**.
 
 ---
 
+#### Assignment_3:Conditional_Aggregation_Matrix
 
-## 🔢 Assignment_3:Conditional_Aggregation_Matrix
-
-### 📁 Project File Layout
-*   `Assignment_3.1xlsx` — Multi-part workbook featuring diverse structural datasets.
-*   `Assignment_3.2xlsx`
-*   `Assignment_3.3xlsx`
-*   `Assignment_3.4xlsx`
-*    
-### 🎯 Project Objective
+##### Project File Layout
+Assignment_3.1xlsx` — Multi-part workbook featuring diverse structural datasets.
+Assignment_3.2xlsx`
+Assignment_3.3xlsx`
+Assignment_3.4xlsx`
+    
+##### Project Objective
 To master conditional mathematical and statistical filtering across diverse real-world datasets, applying multi-criteria summing and counting variables to isolate targeted operational indicators without changing the underlying raw tables.
 
-### 🔍 Project Architecture (Multi-Part Formula Matrix)
+##### Project Architecture (Multi-Part Formula Matrix)
 This assignment was executed across a structured **4-part framework containing specialized formula exercises**:
 
 | Module | Core Analytics Focus | Advanced Excel Functions & Logic Applied |
@@ -108,20 +106,26 @@ This assignment was executed across a structured **4-part framework containing s
 | **Assignment_3.3** | **Multi-Criteria Advanced Logic** | Engineered complex conditional logic strings (`SUMIFS`, `COUNTIFS`) to aggregate values across multiple overlapping dimensions simultaneously. |
 | **Assignment_3.4** | **Cross-Dataset Variable Testing** | Stress-tested the aggregation formulas across **various kinds of data profiles** to ensure syntax flexibility and formatting stability. |
 
-### 🛠️ Key Excel Tools Used
-*   **Formula Engineering:** Mastered the structural layout shifts between single-condition (`SUMIF`) and advanced multi-criteria (`SUMIFS`) syntax properties.
-*   **Logical Auditing:** Parsed structural text string constants inside conditional parameters to guarantee precise category matches.
-*   **Cell Anchoring:** Utilized absolute referencing controls (`$`) to design scalable summary boxes that expand across rows smoothly.
+1.This project demonstrates that raw data volume is useless unless you can slice it logically. 
 
-### 💡 The "So What?" Takeaway
-This project demonstrates that raw data volume is useless unless you can slice it logically. Mastering the structural layout of `SUMIFS` and `COUNTIFS` enables an analyst to bypass slow manual filtering completely, establishing automated summary cards that dynamically extract clean business metrics from thousands of chaotic data entries.
+2.Mastering the structural layout of `SUMIFS` and `COUNTIFS` enables an analyst to bypass slow manual filtering completely, establishing automated summary cards that dynamically extract clean business metrics from thousands of chaotic data entries.
 
-## 🔀 Assignment_4:Logical_Audit_&_Fulfillment_Matrix
-**📁 Project Files:** `Assignment_4.xlsx` \`
+##### Key Excel Tools Used
+* Formula Engineering: Mastered the structural layout shifts between single-condition (`SUMIF`) and advanced multi-criteria (`SUMIFS`) syntax properties.
+* Logical Auditing: Parsed structural text string constants inside conditional parameters to guarantee precise category matches.
+* Cell Anchoring: Utilized absolute referencing controls (`$`) to design scalable summary boxes that expand across rows smoothly.
 
-**🎯 Objective:** To engineer an automated delivery verification layer using multi-condition logical engines (`IF`, `AND`, `OR`, `IFS`) to audit dual-product row slots, date compliance boundaries, and dynamic commission rates.
 
-**🔍 Methodology:** Restructured raw courier transaction logs featuring two distinct product drops per row (single-slot tracking), deploying automated Boolean (`TRUE/FALSE`) and string outputs to detect shipment patterns.
+#### Assignment_4:Logical_Audit_&_Fulfillment_Matrix
+
+##### Project Files: 
+Assignment_4.xlsx
+
+##### Objective:
+To engineer an automated delivery verification layer using multi-condition logical engines (`IF`, `AND`, `OR`, `IFS`) to audit dual-product row slots, date compliance boundaries, and dynamic commission rates.
+
+##### Methodology:
+Restructured raw courier transaction logs featuring two distinct product drops per row (single-slot tracking), deploying automated Boolean (`TRUE/FALSE`) and string outputs to detect shipment patterns.
 
 | Module / Exercise | Core Analytical Business Logic | Excel Functions Applied |
 | :--- | :--- | :--- |
@@ -131,45 +135,22 @@ This project demonstrates that raw data volume is useless unless you can slice i
 | **Ex 04: Vendor SLA Tracker** | Return true if a **laptop or mobile** is delivered specifically by the **"Astro"** company. | `=AND(OR(...))` structural nesting |
 | **Ex 05: Dispatch Latency** | Classify delivery speeds automatically into distinct **"Same Day"** or **"Delayed"** categories. | Evaluative `=IF(...)` statements |
 | **Ex 06: Commission Engine** | Calculate the exact multi-tier payout percentage based on fulfillment scores. | Dynamic multi-condition `=IFS(...)` |
+ 
+1.This layout demonstrates that advanced logic functions can safeguard an organization's profit margins. 
 
-**🛠️ Key Excel Tools Used**
-* **Boolean Logic Engineering:** Constructed strict `TRUE/FALSE` operational checkpoints to isolate supply chain anomalies without manual scanning.
-* **Horizontal Array Slicing:** Managed conditional rules that check interactions between two separate product fields sitting in the exact same row.
-* **Text & Data Standardization:** Handled strict string matching constraints (e.g., verifying vendor text like `"Astro"`) to ensure data matching integrity.
+2.By using multi-criteria nested formulas rather than slow line-by-line checks, the workbook automatically flags operational delays, checks vendor contract compliance, and calculates employee commissions instantly without manual error.
 
-**💡 The "So What?" Takeaway:** 
-This layout demonstrates that advanced logic functions can safeguard an organization's profit margins. By using multi-criteria nested formulas rather than slow line-by-line checks, the workbook automatically flags operational delays, checks vendor contract compliance, and calculates employee commissions instantly without manual error.
+---
 
-## 📊 05_Enterprise_Business_Intelligence_Matrix
+##### Assignment_5: Enterprise_Data_Modeling_&_Visual_Dashboards
 
-**📁 Project Files:** `Enterprise_Operations_Model.xlsx` \| `Executive_Summaries.docx` \| `BI_Dashboard_Previews.png`
-**🎯 Objective:** To engineer interactive decision-making dashboards across five core corporate domains using Advanced Pivot Tables, custom groupings, and dynamic cross-filtering.
-**🔍 Methodology:** Processed distinct multi-column datasets into responsive analysis grids, deploying specific visual anchors to track high-level operational health indicators.
-
-| Module Name | Advanced Excel Tool & Feature |
-| :--- | :--- |
-| **5.1: Sales Audit** | • **Pivot Table Date Grouping** (Months)<br>• Top N Value Filtering<br>• Report Connected Slicers |
-| **5.2: HR Analytics** | • **Pivot Table Date Grouping** (Years)<br>• Pivot Summary Value Fields<br>• Interactive Timeline Filter |
-| **5.3: Supply Chain** | • **Pivot Table Calculated Fields**<br>• **Conditional Formatting** (Low Stock Icons)<br>• Multi-Select Value Slicers |
-| **5.4: Corporate Budget** | • Pivot Field Settings (`% of Total Column`) <br>• Custom Matrix **Conditional Heatmap**<br>• Report Connected Slicers |
-| **5.5: Order Logistics** | • Custom Pivot Value Aggregations (`Average`) <br>• Tabular Pivot Layout Design<br>• Multi-Select Value Slicers |
-
-**🛠️ Key Excel Tools Used**
-* **Advanced Pivot Ingestion:** Mastered multi-field row/column layouts and multi-level data groupings (Date fields segmented smoothly into Month, Week, and Year blocks).
-* **Dynamic Slicing Architecture:** Coordinated Cross-Filtering by linking single Slicers and Timelines across independent Pivot Tables via Report Connections.
-* **Conditional Formatting UI:** Applied data-driven visual layers, featuring high-contrast text alerts for low inventory limits and custom color **Heatmaps** for budget utilization percentage risks.
-
-**💡 The "So What?" Takeaway:** 
-This enterprise matrix proves that spreadsheet automation is critical for rapid corporate risk reduction. By converting multi-variable transactional columns into unified dashboard screens, stakeholders can instantly isolate revenue drops, department budget overruns, warehouse supply deficits, and fulfillment bottlenecks without scrolling through thousands of raw rows.
-# 🔢 Assignment_5: Enterprise_Data_Modeling_&_Visual_Dashboards
-
-### 📁 Project File Layout
-*   `Assignment_5.xlsx`
-*      
-### 🎯 Project Objective
+##### Project File Layout
+Assignment_5.xlsx`
+      
+##### Project Objective
 To architect dynamic, interactive reporting layers fed by background pivot compilation engines. This project establishes multi-criteria logical filters (`SUMIFS`, `COUNTIFS`, `AVERAGEIFS`) and advanced spreadsheet modeling techniques to deliver executive-level operational KPIs and trend insights without modifying raw system tables.
 
-### 🔍 Project Architecture (Multi-Dimensional Modeling Framework)
+#####  Project Architecture (Multi-Dimensional Modeling Framework)
 This assignment was executed across a synchronized **5-part analytics infrastructure**:
 
 | Module | Core Analytics Focus | Advanced BI Functions & Data Logic Applied |
@@ -180,55 +161,58 @@ This assignment was executed across a synchronized **5-part analytics infrastruc
 | **5.4** | **Fiscal Governance & Variance** | Structured dual-variable budget utilization models evaluating planned allocations against realized expenses across project hierarchies. |
 | **5.5** | **Supply Chain Latency & Friction** | Orchestrated chronological operational throughput counting and time-delta averaging to flag distribution bottlenecks and customer friction zones. |
 
-### 💡 Take Away
-*   **True Success Metrics over Volume:** Mastered using contextual rates (e.g., `Win Rate %` or `% Budget Used`) over basic raw counts to find the true top-performing teams and departments.
-*   **Visual Formatting Control:** Learned how to remove distracting auto-decimals on Callout KPI cards by overriding settings from "All" to specific fields in the Power BI properties panel.
-*   **Dynamic Dashboard Interaction:** Gained expertise in setting up interactive multi-filters (Slicers and Timeline Sliders) that allow viewers to cross-filter charts dynamically with zero manual coding.
+##### Discription
+1.  **True Success Metrics over Volume:** Mastered using contextual rates (e.g., `Win Rate %` or `% Budget Used`) over basic raw counts to find the true top-performing teams and departments.
+2.  **Visual Formatting Control:** Learned how to remove distracting auto-decimals on Callout KPI cards by overriding settings from "All" to specific fields in the Power BI properties panel.
+3. **Dynamic Dashboard Interaction:** Gained expertise in setting up interactive multi-filters (Slicers and Timeline Sliders) that allow viewers to cross-filter charts dynamically with zero manual coding.
 Use code with caution.
 
-# 🔢 Assignment_6: Data_Retrieval_&_Dynamic_Filtering_Matrix
+---
 
-### 📁 Project File Layout
-*   `Assignment_6.xlsx`
-*   
-### 🎯 Project Objective
+#### Assignment_6: Data_Retrieval_&_Dynamic_Filtering_Matrix
+
+##### Project File Layout
+Assignment_6.xlsx`
+   
+##### Project Objective
 To master precision data retrieval and dynamic record isolation across complex datasets by engineering structural search engines using `VLOOKUP` and `FILTER`. This project establishes stable vertical lookup paths and modern logical array matrices to pull targeted operational records instantly without changing the underlying raw tables.
 
-### 🔍 Project Architecture (Retrieval & Filtering Framework)
+##### Project Architecture (Retrieval & Filtering Framework)
 
 | Module | Core Analytics Focus | Advanced Spreadsheet Functions & Data Logic Applied |
 | :---: | :--- | :--- |
 | **Exact Match Key Extractions** | Applied vertical reference searches (`VLOOKUP`) with exact match parameters (`FALSE`) to isolate single records based on unique identifiers. |
 | **Dynamic Array Transformations** | Deployed modern condition array scanning (`FILTER`) to extract complete subsets of matching rows based on categorical criteria. |
 
----
-### 🔄 Data Orchestration & Automation Protocol
-1. **Data Appending:** Append raw data records to the bottom of the source sheets. The lookup frameworks adjust to the expansion without requiring formula rewrites.
-2. **Formula Execution:** `VLOOKUP` maps individual field targets vertically down structural arrays, while the `FILTER` engine automatically spills rows downward into layout cells if multiple matches exist.
-3. **Empty Result Handling:** Integrated error-trapping bounds (`"No Records Found"`) inside the dynamic array formulas to maintain clean dashboard interfaces when search criteria yield zero hits.
-
+##### Discription
+1.Data Appending: Append raw data records to the bottom of the source sheets. The lookup frameworks adjust to the expansion without requiring formula rewrites.
+2.Formula Execution:`VLOOKUP` maps individual field targets vertically down structural arrays, while the `FILTER` engine automatically spills rows downward into layout cells if multiple matches exist.
+3.Empty Result Handling:Integrated error-trapping bounds (`"No Records Found"`) inside the dynamic array formulas to maintain clean dashboard interfaces when search criteria yield zero hits.
 
 ---
 
-# 🔢 Assignment7_10_Advanced_Statistical_Operations_&_Exploratory_Data_Analysis
+#### Assignment7_10_Advanced_Statistical_Operations_&_Exploratory_Data_Analysis
+##### Project File Layout
+Assignment_7 to 10.xlsx
 
-### 🎯 Objective
+##### Objective
 To perform a complete exploratory data analysis (EDA) and profile statistical distributions across business data records. The core goal is to extract precise shape profiles, linear variables relationships, percentiles boundaries, and extreme outliers using advanced data-modeling logic without modifying the original data rows.
 
-### 🔍 Project Architecture
+##### Project Architecture
 This analytical project follows a structured 5-part framework mapping the underlying variables:
 
-*   **Central Tendency & Dispersion Engine:** Models data centers (`Mean`, `Median`, `Mode`) for customer demographics and measures baseline variance (`Standard Deviation`, `Variance`) across financial metrics.
-*   **Distribution Geometry Validation:** Evaluates data curves asymmetry (`Skewness`) and tail weight (`Kurtosis`) to statistically verify if columns fit a normal bell curve.
-*   **Inter-Variable Association Matrix:** Pairs overlapping columns using direction mapping (`Covariance`) and strength measurements (`Pearson Correlation Coefficient`) to construct full data-relationship matrix grids.
-*   **Boundary Range Segmentation:** Extracts spatial cutoffs by tracking absolute ranges (`Max - Min`) and calculating the middle 50% spread using Interquartile Ranges (`IQR` at the 25%, 50%, and 75% marks).
-*   **Anomaly Isolation Protocol:** Converts raw individual rows into standardized units (`Z-Scores`) to instantly flag extreme scores resting past the critical `±3` standard deviation threshold.
+1.Central Tendency & Dispersion Engine:Models data centers (`Mean`, `Median`, `Mode`) for customer demographics and measures baseline variance (`Standard Deviation`, `Variance`) across financial metrics.
+2.Distribution Geometry Validation:Evaluates data curves asymmetry (`Skewness`) and tail weight (`Kurtosis`) to statistically verify if columns fit a normal bell curve.
+3.Inter-Variable Association Matrix:Pairs overlapping columns using direction mapping (`Covariance`) and strength measurements (`Pearson Correlation Coefficient`) to construct full data-relationship matrix grids.
+4.Boundary Range Segmentation:Extracts spatial cutoffs by tracking absolute ranges (`Max - Min`) and calculating the middle 50% spread using Interquartile Ranges (`IQR` at the 25%, 50%, and 75% marks).
+5.Anomaly Isolation Protocol:Converts raw individual rows into standardized units (`Z-Scores`) to instantly flag extreme scores resting past the critical `±3` standard deviation threshold.
 
-### 🛠️ Tool
-The analysis and dashboards were executed using a multi-platform environment:
-*   **Microsoft Excel:** Applied advanced column arrays, absolute locking constraints (`$`), conditional formatting rules, and the **Data Analysis Toolpak** (Descriptive Statistics & Correlation Matrix engines).
+##### Discription
+1.Standardized Normal Limits:Verified that a skewness value near 0 (e.g., `0.0378`) proves a dataset is nearly perfectly symmetrical and normally distributed.
+2.Outlier Shielding Logic:Mastered row-by-row Z-score filtering using `=ABS(Z_Score) > 3` to isolate dirty data anomalies cleanly.
+3.Precision Over Scale:Learned that checking the standardized correlation number (`-1 to +1`) is far more reliable for business decisions than basic covariance numbers because it isn't warped by large data values.
 
-### 💡 Take Away
-*   **Standardized Normal Limits:** Verified that a skewness value near 0 (e.g., `0.0378`) proves a dataset is nearly perfectly symmetrical and normally distributed.
-*   **Outlier Shielding Logic:** Mastered row-by-row Z-score filtering using `=ABS(Z_Score) > 3` to isolate dirty data anomalies cleanly.
-*   **Precision Over Scale:** Learned that checking the standardized correlation number (`-1 to +1`) is far more reliable for business decisions than basic covariance numbers because it isn't warped by large data values.
+##### Tool
+* Microsoft Excel: Applied advanced column arrays, absolute locking constraints (`$`), conditional formatting rules, and the **Data Analysis Toolpak** (Descriptive Statistics & Correlation Matrix engines).
+
+---
