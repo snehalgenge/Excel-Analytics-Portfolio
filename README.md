@@ -95,10 +95,10 @@ To evaluate the behavioral relationships between multi-generational age groups, 
 #### Assignment_3:Conditional_Aggregation_Matrix
 
 ##### Project File Layout
-Assignment_3.1xlsx` — Multi-part workbook featuring diverse structural datasets.
-Assignment_3.2xlsx`
-Assignment_3.3xlsx`
-Assignment_3.4xlsx`
+Assignment_3.1xlsx` — Multi-part workbook featuring diverse structural datasets
+Assignment_3.2xlsx
+Assignment_3.3xlsx
+Assignment_3.4xlsx
     
 ##### Project Objective
 To master conditional mathematical and statistical filtering across diverse real-world datasets, applying multi-criteria summing and counting variables to isolate targeted operational indicators without changing the underlying raw tables.
